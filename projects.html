@@ -2,72 +2,304 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mechanical, robotics, rover and hardware work by Siam Ibne Sarwar (Sinan).">
+    <title>Siam Ibne Sarwar (Sinan) | Engineering Work & Projects</title>
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
-    <title>Siam | Projects</title>
-
+    <meta name="theme-color" content="#111814">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Siam Ibne Sarwar (Sinan) | Engineering Work & Projects">
+    <meta property="og:description" content="Original design, rover experience, CAD studies, embedded hardware and software learning projects by Siam Ibne Sarwar (Sinan).">
+    <meta property="og:url" content="https://bedbug39.github.io/projects.html">
+    <meta property="og:image" content="https://bedbug39.github.io/assets/images/profile.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://bedbug39.github.io/projects.html">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="site.webmanifest">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
 
 <body>
-    <!-- Navigation bar -->
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
     <header class="navbar">
-        <a class="logo" href="index.html">Siam</a>
+        <div class="nav-inner">
+            <a class="logo" href="index.html" aria-label="Siam Ibne Sarwar (Sinan) home">
+                <span class="logo-mark">S</span>
+                <span>Siam Ibne Sarwar <span class="nickname">(Sinan)</span></span>
+            </a>
 
-<nav class="nav-links">
-    <a href="index.html">Home</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
+            <button id="menu-toggle" class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+                <span></span><span></span><span></span>
+                <span class="sr-only">Toggle navigation</span>
+            </button>
 
-    <button id="theme-toggle" class="theme-button">
-        Dark Mode
-    </button>
-</nav>
+            <nav id="primary-nav" class="nav-links" aria-label="Primary navigation">
+                <a href="index.html">Home</a>
+                <a class="active" href="projects.html">Engineering Work & Projects</a>
+                <a href="contact.html">Contact</a>
+                <button id="theme-toggle" class="theme-button" type="button">Dark Mode</button>
+            </nav>
+        </div>
     </header>
 
-    <!-- Main page content -->
-    <main class="page-container">
-        <section class="profile-card">
-            <h1>My Projects</h1>
+    <main id="main-content" class="section-shell page-top">
+        <div class="page-hero">
+            <p class="eyebrow">Engineering Work & Projects</p>
+            <h1>Mechanical systems, original design, rover work and hardware.</h1>
+            <p>
+                This page focuses on the work I have physically contributed to and the
+                technical areas I am developing through hands-on experience.
+            </p>
+        </div>
 
-            <div class="project-item">
-                <h2>GitStack</h2>
 
-                <p>
-                    A platform for learning Git, practising commands,
-                    working in teams, and receiving automatic feedback.
-                </p>
+
+        <section class="featured-project">
+            <div class="featured-project-image">
+                <img src="assets/images/rover-project.jpg" alt="UIU rover operating across rough terrain">
             </div>
 
-            <div class="project-item">
-                <h2>My Personal Website</h2>
-
+            <div class="featured-project-copy">
+                <p class="project-kicker">Primary Engineering Experience</p>
+                <h2>UIU Mars Rover Team</h2>
                 <p>
-                    A responsive personal website created using
-                    HTML and CSS.
+                    Rover development has been the most important practical part of my engineering journey.
+                    My contribution has included mechanical design, prototyping, fabrication, 3D printing,
+                    assembly and integration, with increasing responsibility from Intern to Team Lead.
                 </p>
-            </div>
 
-            <div class="button-group">
-                <a class="project-button" href="index.html">
-                    Back to Home
-                </a>
 
-                <a
-                    class="project-button secondary-button"
-                    href="https://github.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Visit GitHub
-                </a>
+                <div class="confidentiality-note">
+                    <strong>Design confidentiality</strong>
+                    <p>
+                        Detailed rover CAD, drawings, dimensions and internal design information
+                        are intentionally not published here in accordance with team and university
+                        confidentiality requirements.
+                    </p>
+                </div>
+
+                <div class="tag-list">
+                    <span>Fusion 360</span>
+                    <span>Mechanical Design</span>
+                    <span>3D Printing</span>
+                    <span>Fabrication</span>
+                    <span>Rover Integration</span>
+                </div>
             </div>
         </section>
+
+        
+
+
+
+        <section id="rc-car-project" class="rc-case-study">
+            <div class="section-heading">
+                <p class="eyebrow">Original Design · Physical Build</p>
+                <h2>Sensor-Integrated RC Car Platform</h2>
+            </div>
+
+            <div class="rc-case-grid">
+                <div class="rc-copy">
+                    <p class="project-kicker">Designed by me from scratch</p>
+                    <p class="rc-lead">
+                        I developed the complete mechanical layout and CAD model in Fusion 360
+                        for an electronics-focused project, then carried the design into a physical build.
+                    </p>
+
+                    <p>
+                        The platform was arranged to integrate the chassis and wheel system with
+                        a battery holder, motor driver, ESP board, air-sensing hardware, filtration
+                        unit, relay module and supporting electronics.
+                    </p>
+
+                    <div class="system-flow">
+                        <div>
+                            <span>01</span>
+                            <strong>Sense</strong>
+                            <p>The air sensor monitors air data.</p>
+                        </div>
+                        <div>
+                            <span>02</span>
+                            <strong>Report</strong>
+                            <p>An abnormal condition can be signaled to the dashboard/control system.</p>
+                        </div>
+                        <div>
+                            <span>03</span>
+                            <strong>Act</strong>
+                            <p>The controller can start the filtration system through a relay module.</p>
+                        </div>
+                    </div>
+
+                    <div class="tag-list">
+                        <span>Fusion 360</span>
+                        <span>Original CAD Design</span>
+                        <span>Physical Build</span>
+                        <span>ESP</span>
+                        <span>Motor Driver</span>
+                        <span>Relay Module</span>
+                        <span>Air Sensing</span>
+                    </div>
+                </div>
+
+                <div class="rc-images">
+                    <figure>
+                        <img src="assets/images/rc-car-design-front.jpg" alt="Front-side Fusion 360 view of the RC car platform">
+                        <figcaption>Front-side assembly view</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/images/rc-car-design-rear.jpg" alt="Rear-side Fusion 360 view showing component placement">
+                        <figcaption>Rear-side electronics integration view</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="rc-contribution">
+                <div>
+                    <p class="card-label">My Contribution</p>
+                    <h3>Mechanical layout, CAD design and physical implementation</h3>
+                </div>
+                <p>
+                    I designed the RC car platform itself and developed the mechanical arrangement
+                    needed to accommodate the major electronic and filtration components. This was
+                    not only a modelling exercise—the design was also built physically.
+                </p>
+            </div>
+        </section>
+<section class="project-section">
+            <div class="section-heading">
+                <p class="eyebrow">Mechanical & Field Work</p>
+                <h2>Building for conditions beyond the CAD screen.</h2>
+            </div>
+
+            <div class="engineering-grid">
+                <article>
+                    <img src="assets/images/rover-field-wide.jpg" alt="UIU rover operating on rough terrain during field activity">
+                    <div>
+                        <h3>Mechanical Integration</h3>
+                        <p>Working with the rover as a complete physical system — assembly, interfaces, component placement and field readiness.</p>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="assets/images/rover-course.jpg" alt="Rover navigating a marked competition course">
+                    <div>
+                        <h3>Field Testing & Iteration</h3>
+                        <p>Testing exposes issues that are difficult to predict during design. Field feedback guides mechanical improvements and future iterations.</p>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="assets/images/rover-distance.jpg" alt="Rover operating across competition terrain">
+                    <div>
+                        <h3>Prototype Validation</h3>
+                        <p>Real terrain provides a practical check on mechanical reliability, integration choices and overall system readiness.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="project-section">
+            <div class="section-heading">
+                <p class="eyebrow">Embedded Hardware</p>
+                <h2>Bringing mechanics, controllers and sensing together.</h2>
+            </div>
+
+            <div class="hardware-panel">
+                <div>
+                    <h3>Arduino, ESP boards & sensors</h3>
+                    <p>
+                        My embedded systems experience is integration-oriented. I am developing
+                        practical understanding of how controllers and sensors fit into robotic
+                        systems and how mechanical and electronic subsystems interact.
+                    </p>
+                </div>
+
+                <div class="hardware-list hardware-cards">
+                    <div><strong>Arduino</strong><span>Controller integration</span></div>
+                    <div><strong>ESP Boards</strong><span>Embedded connectivity</span></div>
+                    <div><strong>Sensor Integration</strong><span>System feedback</span></div>
+                    <div><strong>Robotic Systems</strong><span>Hardware coordination</span></div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="project-section cad-studies-section">
+            <div class="section-heading">
+                <p class="eyebrow">CAD Studies & Mechanical Modelling</p>
+                <h2>Practice models used to strengthen mechanical modelling and assembly skills.</h2>
+            </div>
+
+            <p class="cad-disclosure">These are recreated study models for learning and practice. The RC car project above is my original design.</p>
+
+            <div class="cad-grid">
+                <article class="cad-card">
+                    <img src="assets/images/planetary-gear.jpg" alt="Recreated planetary gear assembly model">
+                    <div><span>Recreated CAD Study</span><h3>Planetary Gear Assembly</h3><p>Practised gear relationships, component alignment and assembly structure in Fusion 360.</p></div>
+                </article>
+                <article class="cad-card">
+                    <img src="assets/images/v6-engine.jpg" alt="Recreated V6 crankshaft and piston assembly model">
+                    <div><span>Recreated CAD Study</span><h3>V6 Crankshaft & Piston Assembly</h3><p>Used as a study in repeated geometry, component positioning and complex mechanical assemblies.</p></div>
+                </article>
+                <article class="cad-card">
+                    <img src="assets/images/v4-engine-block.jpg" alt="Recreated V4 engine block model">
+                    <div><span>Recreated CAD Study</span><h3>V4 Engine Block</h3><p>Recreated to strengthen solid modelling, geometric construction and precision modelling fundamentals.</p></div>
+                </article>
+            </div>
+        </section>
+        <section class="project-section software-section">
+            <div class="section-heading">
+                <p class="eyebrow">Software & Technical Growth</p>
+                <h2>Expanding the software side of my engineering toolkit.</h2>
+            </div>
+
+            <p class="software-intro">
+                I am continuing to learn software development because modern robotics and
+                engineering increasingly depend on software, automation and connected systems.
+                My goal is to combine stronger software knowledge with my practical mechanical
+                and hardware experience over time.
+            </p>
+
+            <div class="software-grid">
+                <article>
+                    <span>Learning Project</span>
+                    <h3>GitStack</h3>
+                    <p>
+                        A Git learning and collaboration platform project through which I am
+                        developing familiarity with Git workflows, web development, Docker,
+                        backend concepts and structured software teamwork.
+                    </p>
+                </article>
+
+                <article>
+                    <span>Personal Project</span>
+                    <h3>Portfolio Website</h3>
+                    <p>
+                        A lightweight HTML, CSS and JavaScript project used to document my
+                        engineering experience while strengthening my frontend fundamentals.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="callout-section">
+            <div>
+                <p class="eyebrow">Future Additions</p>
+                <h2>More original design projects and detailed build case studies will be added as the portfolio grows.</h2>
+            </div>
+            <a class="button primary-button" href="contact.html">Contact Me</a>
+        </section>
     </main>
+
+    <footer class="footer section-shell">
+        <p>© <span id="current-year"></span> Siam Ibne Sarwar (Sinan)</p>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="assets/docs/Siam_Ibne_Sarwar_CV.pdf" target="_blank">CV</a>
+        </div>
+    </footer>
 </body>
 </html>

@@ -2,73 +2,322 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Siam Ibne Sarwar (Sinan) — CSE undergraduate focused on mechanical design, rover systems, fabrication, robotics and embedded hardware.">
+    <title>Siam Ibne Sarwar (Sinan) | Robotics & Mechanical Portfolio</title>
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
-    <title>Siam | Personal Website</title>
-
+    <meta name="theme-color" content="#111814">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Siam Ibne Sarwar (Sinan) | Robotics & Mechanical Portfolio">
+    <meta property="og:description" content="CSE undergraduate focused on mechanical design, robotics, rover systems, fabrication, embedded hardware and engineering projects.">
+    <meta property="og:url" content="https://bedbug39.github.io/">
+    <meta property="og:image" content="https://bedbug39.github.io/assets/images/profile.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://bedbug39.github.io/">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="site.webmanifest">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
 
 <body>
-    <!-- Navigation bar -->
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
     <header class="navbar">
-        <a class="logo" href="index.html">Siam</a>
+        <div class="nav-inner">
+            <a class="logo" href="index.html" aria-label="Siam Ibne Sarwar (Sinan) home">
+                <span class="logo-mark">S</span>
+                <span>Siam Ibne Sarwar <span class="nickname">(Sinan)</span></span>
+            </a>
 
-  <nav class="nav-links">
-    <a href="index.html">Home</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
+            <button id="menu-toggle" class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+                <span></span><span></span><span></span>
+                <span class="sr-only">Toggle navigation</span>
+            </button>
 
-    <button id="theme-toggle" class="theme-button">
-        Dark Mode
-    </button>
-</nav>
+            <nav id="primary-nav" class="nav-links" aria-label="Primary navigation">
+                <a class="active" href="index.html">Home</a>
+                <a href="projects.html">Engineering Work & Projects</a>
+                <a href="contact.html">Contact</a>
+                <button id="theme-toggle" class="theme-button" type="button">Dark Mode</button>
+            </nav>
+        </div>
     </header>
 
-    <!-- Main page content -->
-    <main class="page-container">
-        <section class="profile-card">
-            <h1>Siam Ibne Sarwar</h1>
+    <main id="main-content">
+        <section class="hero section-shell">
+            <div class="hero-copy">
+                <p class="eyebrow">Mechanical Design · Robotics · Hardware Integration</p>
 
-            <p class="intro">
-                I am a student learning web development.
-            </p>
+                <h1>
+                    I build physical systems that
+                    <span>turn engineering ideas into working machines.</span>
+                </h1>
 
-            <div class="info-section">
-                <h2>About Me</h2>
-
-                <p>
-                    I enjoy learning programming, solving problems,
-                    and building software projects.
+                <p class="hero-text">
+                    I’m Siam Ibne Sarwar (Sinan), a Computer Science and Engineering undergraduate
+                    with a strong interest in mechanical design, rover development, fabrication,
+                    prototyping and embedded hardware integration.
                 </p>
+
+                <div class="hero-role-card">
+                    <span>Current Role</span>
+                    <strong>Mechanical Team Lead</strong>
+                    <p>UIU Mars Rover Team</p>
+                </div>
             </div>
 
-            <div class="info-section">
-                <h2>My Goal</h2>
+            <div class="hero-visual">
+                <img src="assets/images/profile.jpg" alt="Siam Ibne Sarwar (Sinan) at a rover competition research station">
+            </div>
+        </section>
 
-                <p>
-                    My goal is to become a professional software
-                    developer and create useful applications.
-                </p>
+        <section class="section-shell capability-section" aria-label="Core engineering capabilities">
+            <div class="capability-grid">
+                <article><span>01</span><strong>Fusion 360</strong><p>Component and assembly design</p></article>
+                <article><span>02</span><strong>Rover Systems</strong><p>Mechanical integration and prototyping</p></article>
+                <article><span>03</span><strong>Fabrication</strong><p>3D printing and workshop work</p></article>
+                <article><span>04</span><strong>Embedded Hardware</strong><p>Arduino, ESP boards and sensors</p></article>
+            </div>
+        </section>
+
+        <section class="section-shell content-section">
+            <div class="section-heading">
+                <p class="eyebrow">About Me</p>
+                <h2>Computer science background, hands-on engineering focus.</h2>
             </div>
 
-            <div class="info-section">
-                <h2>My Skills</h2>
+            <div class="about-grid">
+                <div class="about-copy">
+                    <p>
+                        I study Computer Science and Engineering at United International University.
+                        My strongest practical experience has grown through robotics and mechanical work,
+                        where design decisions have to survive fabrication, assembly and real field conditions.
+                    </p>
 
-                <p>
-                    HTML, CSS, Git, GitHub, Python, and Docker.
-                </p>
+                    <p>
+                        I started in the UIU Mars Rover Team as a Mechanical Intern, progressed to
+                        Mechanical Member, and now serve as Mechanical Team Lead. I enjoy the complete
+                        engineering cycle — understanding a problem, designing a solution, building it,
+                        integrating it and learning from testing.
+                    </p>
+                </div>
+
+                <aside class="education-card">
+                    <p class="card-label">Education</p>
+                    <h3>BSc in Computer Science and Engineering</h3>
+                    <p>United International University, Dhaka</p>
+
+                    <div class="education-meta">
+                        <span>2023 — 2027</span>
+                        <strong>Expected Graduation: 2027</strong>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section-shell team-feature">
+            <div class="team-image">
+                <img src="assets/images/team-field.jpg" alt="UIU Mars Rover Team members with the rover during field work">
             </div>
 
-            <a class="project-button" href="projects.html">
-                View My Projects
-            </a>
+            <div class="team-copy">
+                <p class="eyebrow">The Team</p>
+                <h2>Engineering is a team effort.</h2>
+                <p>
+                    Rover development brings mechanical, electrical, embedded and software work together.
+                    My role involves contributing to the mechanical system while coordinating with other
+                    rover sub-teams so that the final machine works as one integrated system.
+                </p>
+            </div>
+        </section>
+
+        <section class="section-shell content-section">
+            <div class="section-heading">
+                <p class="eyebrow">Experience</p>
+                <h2>Progression through hands-on rover development.</h2>
+            </div>
+
+            <div class="timeline">
+                <article class="timeline-item">
+                    <div class="timeline-date">Oct 2025 — Present</div>
+                    <div class="timeline-content">
+                        <p class="role">Mechanical Team Lead</p>
+                        <h3>UIU Mars Rover Team</h3>
+                        <ul>
+                            <li>Lead mechanical design and fabrication activities for rover development.</li>
+                            <li>Create mechanical components and assemblies using Fusion 360.</li>
+                            <li>Coordinate mechanical tasks with other rover sub-teams.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="timeline-date">Mar 2025 — Oct 2025</div>
+                    <div class="timeline-content">
+                        <p class="role">Mechanical Member</p>
+                        <h3>UIU Mars Rover Team</h3>
+                        <ul>
+                            <li>Contributed to mechanical design, prototyping, 3D printing and fabrication.</li>
+                            <li>Supported mechanical assembly and integration for rover systems.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="timeline-date">Nov 2024 — Mar 2025</div>
+                    <div class="timeline-content">
+                        <p class="role">Mechanical Intern</p>
+                        <h3>UIU Mars Rover Team</h3>
+                        <ul>
+                            <li>Assisted with rover prototyping, fabrication and mechanical assembly.</li>
+                            <li>Gained practical experience with Arduino, ESP boards and sensor integration.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section-shell content-section">
+            <div class="section-heading">
+                <p class="eyebrow">Technical Focus</p>
+                <h2>A multidisciplinary toolkit built around physical engineering.</h2>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <span class="skill-number">01</span>
+                    <h3>Mechanical Design</h3>
+                    <p>Fusion 360, component design, assembly design and design-for-fabrication thinking.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">02</span>
+                    <h3>Robotics & Rover Development</h3>
+                    <p>Mechanical integration, prototyping, field testing and multidisciplinary rover work.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">03</span>
+                    <h3>Fabrication</h3>
+                    <p>3D printing, workshop fabrication, mechanical assembly and physical prototyping.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">04</span>
+                    <h3>Embedded Hardware</h3>
+                    <p>Arduino, ESP boards, sensors and hardware integration for robotic systems.</p>
+                </article>
+            </div>
+
+            <div class="software-skills">
+                <div>
+                    <p class="card-label">Software & Technical Tools</p>
+                    <h3>Building software skills that complement engineering work.</h3>
+                    <p>
+                        Alongside my mechanical and hardware work, I continue developing software skills in
+                        Python, Git, GitHub, Docker and web technologies. These tools expand how I can
+                        approach automation, testing, data handling and system integration across
+                        multidisciplinary engineering projects.
+                    </p>
+                </div>
+
+                <div class="tool-tags">
+                    <span>Python</span>
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>Docker</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-shell achievement-section">
+            <div class="achievement-photo">
+                <img src="assets/images/urc-sign.jpg" alt="Siam at the University Rover Challenge">
+            </div>
+
+            <div class="achievement-copy">
+                <p class="eyebrow">Competitions & Achievements</p>
+                <h2>Engineering under real competition pressure.</h2>
+
+                <div class="achievement-list">
+                    <div>
+                        <strong>3rd Place</strong>
+                        <span>University Rover Challenge — 2026</span>
+                    </div>
+                    <div>
+                        <strong>6th Place</strong>
+                        <span>University Rover Challenge — 2025</span>
+                    </div>
+                    <div>
+                        <strong>3rd Place</strong>
+                        <span>Anatolian Rover Challenge — 2025</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-shell rover-highlight">
+            <div class="rover-highlight-copy">
+                <p class="eyebrow">Rover in the Field</p>
+                <h2>Design is only the beginning. The real test is operation.</h2>
+                <p>
+                    Field testing brings together mechanical reliability, integration,
+                    terrain interaction and practical problem solving. It is where design
+                    assumptions meet the real environment.
+                </p>
+                <a class="text-link" href="projects.html">Explore more engineering work →</a>
+            </div>
+
+            <div class="rover-highlight-image">
+                <img src="assets/images/rover-closeup.jpg" alt="UIU rover operating on competition terrain">
+            </div>
+        </section>
+
+
+        <section class="section-shell original-design-preview">
+            <div class="original-design-copy">
+                <p class="eyebrow">Original Design & Physical Build</p>
+                <h2>Sensor-Integrated RC Car Platform</h2>
+                <p>
+                    I designed this RC car platform from scratch in Fusion 360 and carried
+                    the design into a physical build. The platform integrates a battery holder,
+                    motor driver, ESP board, air-sensing hardware, relay-controlled filtration
+                    components and supporting electronics within one mobile system.
+                </p>
+                <p>
+                    The air sensor monitors air data. If an abnormal condition is detected,
+                    the system reports it to the dashboard/control system, where the controller
+                    can activate the filter through a relay module.
+                </p>
+                <a class="text-link" href="projects.html#rc-car-project">View the project →</a>
+            </div>
+
+            <div class="original-design-images">
+                <img src="assets/images/rc-car-design-front.jpg" alt="Front-side CAD view of Siam's sensor-integrated RC car">
+                <img src="assets/images/rc-car-design-rear.jpg" alt="Rear-side CAD view showing the electronics layout of Siam's RC car">
+            </div>
+        </section>
+
+        <section class="section-shell callout-section premium-cta">
+            <div>
+                <p class="eyebrow">Engineering Work & Projects</p>
+                <h2>Explore rover work, original design, CAD studies and hardware-focused projects.</h2>
+                <a class="button primary-button" href="projects.html">Explore Projects</a>
+            </div>
         </section>
     </main>
+
+    <footer class="footer section-shell">
+        <p>© <span id="current-year"></span> Siam Ibne Sarwar (Sinan)</p>
+        <div class="footer-links">
+            <a href="projects.html">Engineering Work</a>
+            <a href="contact.html">Contact</a>
+            <a href="assets/docs/Siam_Ibne_Sarwar_CV.pdf" target="_blank">CV</a>
+        </div>
+    </footer>
 </body>
 </html>

@@ -2,69 +2,91 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Siam Ibne Sarwar (Sinan).">
+    <title>Siam Ibne Sarwar (Sinan) | Contact</title>
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
-    <title>Siam | Contact</title>
-
+    <meta name="theme-color" content="#111814">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Siam Ibne Sarwar (Sinan) | Contact">
+    <meta property="og:description" content="Contact Siam Ibne Sarwar (Sinan) for robotics, mechanical design, fabrication, embedded hardware and multidisciplinary engineering opportunities.">
+    <meta property="og:url" content="https://bedbug39.github.io/contact.html">
+    <meta property="og:image" content="https://bedbug39.github.io/assets/images/profile.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://bedbug39.github.io/contact.html">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="site.webmanifest">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
 
 <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
     <header class="navbar">
-        <a class="logo" href="index.html">Siam</a>
+        <div class="nav-inner">
+            <a class="logo" href="index.html" aria-label="Siam Ibne Sarwar (Sinan) home">
+                <span class="logo-mark">S</span>
+                <span>Siam Ibne Sarwar <span class="nickname">(Sinan)</span></span>
+            </a>
 
-        <nav class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
-
-            <button id="theme-toggle" class="theme-button">
-                Dark Mode
+            <button id="menu-toggle" class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+                <span></span><span></span><span></span>
+                <span class="sr-only">Toggle navigation</span>
             </button>
-        </nav>
+
+            <nav id="primary-nav" class="nav-links" aria-label="Primary navigation">
+                <a href="index.html">Home</a>
+                <a href="projects.html">Engineering Work & Projects</a>
+                <a class="active" href="contact.html">Contact</a>
+                <button id="theme-toggle" class="theme-button" type="button">Dark Mode</button>
+            </nav>
+        </div>
     </header>
 
-    <main class="page-container">
-        <section class="profile-card">
-            <h1>Contact Me</h1>
-
-            <p class="intro">
-                You can contact me using email or connect with me
-                through GitHub and LinkedIn.
+    <main id="main-content" class="section-shell contact-page">
+        <section class="contact-intro">
+            <p class="eyebrow">Contact</p>
+            <h1>Let’s connect around robotics, hardware and engineering.</h1>
+            <p>
+                I’m interested in opportunities and collaborations involving robotics,
+                mechanical systems, fabrication, embedded hardware and multidisciplinary engineering.
             </p>
 
-            <div class="contact-list">
-                <a
-                    class="contact-item"
-                    href="mailto:siamsarwar3690@gmail.com"
-                >
-                    Email Me
-                </a>
+            <a class="button secondary-button" href="assets/docs/Siam_Ibne_Sarwar_CV.pdf" target="_blank">
+                View My CV
+            </a>
+        </section>
 
-                <a
-                    class="contact-item"
-                    href="https://github.com/bedbug39"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    GitHub Profile
-                </a>
+        <section class="contact-card">
+            <a href="mailto:siamsarwar3690@gmail.com">
+                <span>Email</span>
+                <strong>siamsarwar3690@gmail.com</strong>
+            </a>
 
-                <a
-                    class="contact-item"
-                    href="https://www.linkedin.com/in/siam-ibne-sarwar/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    LinkedIn Profile
-                </a>
+            <a href="https://www.linkedin.com/in/siam-ibne-sarwar" target="_blank" rel="noopener noreferrer">
+                <span>LinkedIn</span>
+                <strong>siam-ibne-sarwar ↗</strong>
+            </a>
+
+            <a href="https://github.com/bedbug39" target="_blank" rel="noopener noreferrer">
+                <span>GitHub</span>
+                <strong>bedbug39 ↗</strong>
+            </a>
+
+            <div>
+                <span>Location</span>
+                <strong>Dhaka, Bangladesh</strong>
             </div>
         </section>
     </main>
+
+    <footer class="footer section-shell">
+        <p>© <span id="current-year"></span> Siam Ibne Sarwar (Sinan)</p>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Engineering Work</a>
+        </div>
+    </footer>
 </body>
 </html>
