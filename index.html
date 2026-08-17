@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Siam Ibne Sarwar (Sinan) — engineering portfolio focused on mechanical systems, robotics and hardware integration.">
+  <title>Siam Ibne Sarwar (Sinan) | Engineering Portfolio</title>
+  <meta name="theme-color" content="#f7f3e6">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Siam Ibne Sarwar (Sinan) | Engineering Portfolio">
+  <meta property="og:description" content="Mechanical systems, robotics, fabrication and hardware integration.">
+  <meta property="og:url" content="https://bedbug39.github.io/">
+  <meta property="og:image" content="https://bedbug39.github.io/assets/images/profile.jpg">
+  <link rel="canonical" href="https://bedbug39.github.io/">
+  <link rel="icon" href="favicon.svg?v=4" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner shell">
+    <a class="brand" href="#home">Siam Ibne Sarwar (Sinan)</a>
+
+    <div class="nav-area">
+      <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="nav-links" class="nav-links" aria-label="Primary navigation">
+        <a href="#home" data-section="home" class="active">Home</a>
+        <a href="#work" data-section="work">Work</a>
+        <a href="#experience" data-section="experience">Experience</a>
+        <a href="#contact" data-section="contact">Contact</a>
+        <a href="#cv" data-section="cv">CV</a>
+      </nav>
+
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch theme">☾</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="home" class="home shell">
+    <div class="home-grid">
+      <div class="intro">
+        <p class="intro-lead">
+          CSE Undergraduate at UIU with a practical focus on mechanical systems, robotics, fabrication and hardware integration.
+        </p>
+
+        <p class="focus-title">Current focus:</p>
+
+        <div class="focus-list">
+          <div class="focus-row">
+            <div class="focus-icon">01</div>
+            <strong>Mechanical Systems</strong>
+            <p>From component layout to working assemblies.</p>
+          </div>
+          <div class="focus-row">
+            <div class="focus-icon">02</div>
+            <strong>Robotics & Integration</strong>
+            <p>Connecting structure, electronics and real-world operation.</p>
+          </div>
+          <div class="focus-row">
+            <div class="focus-icon">03</div>
+            <strong>Prototyping & Fabrication</strong>
+            <p>Building, testing and iterating physical solutions.</p>
+          </div>
+        </div>
+      </div>
+
+      
+      <aside class="profile-card">
+        <img src="assets/images/profile.jpg" alt="Siam Ibne Sarwar">
+        <h2>Siam Ibne Sarwar (Sinan)</h2>
+        <p>CSE Undergraduate at UIU</p>
+        <p class="role">Mechanical Team Lead at UMRT</p>
+      </aside>
+
+    </div>
+  </section>
+
+  
+  <section id="work" class="section">
+    <div class="shell">
+      <h2 class="section-title">Engineering Work</h2>
+
+      <div class="work-list">
+        <article class="work-row work-project">
+          <div class="work-year">01</div>
+          <div>
+            <h3>UIU Mars Rover Team</h3>
+            <p>Mechanical design, fabrication, integration and field testing within a multidisciplinary rover program.</p>
+            <div class="project-meta-line">Role: Mechanical Team Lead · Team engineering</div>
+          </div>
+          <div class="work-links">
+            <span class="pill">Team Engineering</span>
+          </div>
+        </article>
+<article class="work-row work-project">
+          <div class="work-year">02</div>
+          <div>
+            <h3>Sensor-Integrated RC Car</h3>
+            <p>
+              Original mobile platform built to sense air conditions and trigger a filtration response through the control system.
+            </p>
+            <div class="project-meta-line">Original project · Mechanical platform + sensing/control integration</div>
+          </div>
+          <div class="work-links">
+            <button class="pill project-toggle" type="button" data-target="rc-design">Design</button>
+          </div>
+        </article>
+
+        <div id="rc-design" class="project-detail" hidden>
+          <div class="detail-grid">
+            <figure>
+              <img src="assets/images/rc-car-design-front.jpg" alt="Front view of the RC car design">
+              <figcaption>Front-side assembly view</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/images/rc-car-design-rear.jpg" alt="Rear view of the RC car design">
+              <figcaption>Electronics integration view</figcaption>
+            </figure>
+          </div>
+          <div class="project-story">
+            <p><strong>Why I made it:</strong> to practice designing a real mechanical platform around actual electronics instead of modelling an isolated chassis.</p>
+            <p><strong>What it does:</strong> an air sensor monitors conditions, abnormal data is reported to the control side, and the filtration unit can be activated through a relay.</p>
+            <p><strong>Integrated hardware:</strong> battery holder, motor driver, ESP board, air sensor, relay module, filtration unit and supporting electronics.</p>
+          </div>
+        </div>
+
+        <article class="work-row work-project">
+          <div class="work-year">03</div>
+          <div>
+            <h3>V6 Engine Assembly Study</h3>
+            <p>
+              Reference-based assembly study focused on component relationships and crankshaft–piston motion.
+            </p>
+            <div class="project-meta-line">Learning study · Multi-component assembly + kinematics</div>
+          </div>
+          <div class="work-links">
+            <a class="pill" href="https://github.com/bedbug39/v6-engine-cad-assembly" target="_blank" rel="noopener">GitHub</a>
+            <a class="pill" href="https://github.com/bedbug39/v6-engine-cad-assembly/blob/main/motion/crankshaft_pistons_motion.mp4" target="_blank" rel="noopener">Motion</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="experience" class="section">
+    <div class="shell">
+      <h2 class="section-title">Experience</h2>
+
+      <div class="experience-list">
+        <div class="exp-row">
+          <time>2025 — Present</time>
+          <div>
+            <h3>Mechanical Team Lead — UIU Mars Rover Team</h3>
+            <p>Lead mechanical design, fabrication and integration work.</p>
+          </div>
+        </div>
+        <div class="exp-row">
+          <time>2025</time>
+          <div>
+            <h3>Mechanical Team Member — UIU Mars Rover Team</h3>
+            <p>Design, prototyping, 3D printing and assembly.</p>
+          </div>
+        </div>
+        <div class="exp-row">
+          <time>2024 — 2025</time>
+          <div>
+            <h3>Mechanical Team Intern — UIU Mars Rover Team</h3>
+            <p>Prototyping, fabrication and hardware integration.</p>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="minor-heading">Competition Results</h3>
+      <div class="achievements">
+        <div class="achievement">
+          <strong>3rd Place</strong>
+          <span>University Rover Challenge · 2026</span>
+        </div>
+        <div class="achievement">
+          <strong>6th Place</strong>
+          <span>University Rover Challenge · 2025</span>
+        </div>
+        <div class="achievement">
+          <strong>3rd Place</strong>
+          <span>Anatolian Rover Challenge · 2025</span>
+        </div>
+      </div>
+    </div>
+  </section>
+<section id="contact" class="section">
+    <div class="shell">
+      <h2 class="section-title">Contact</h2>
+
+      <div class="contact-list">
+        <a class="contact-row" href="mailto:siamsarwar3690@gmail.com">
+          <span>Email</span>
+          <strong>siamsarwar3690@gmail.com</strong>
+        </a>
+        <a class="contact-row" href="https://www.linkedin.com/in/siam-ibne-sarwar" target="_blank" rel="noopener">
+          <span>LinkedIn</span>
+          <strong>siam-ibne-sarwar ↗</strong>
+        </a>
+        <a class="contact-row" href="https://github.com/bedbug39" target="_blank" rel="noopener">
+          <span>GitHub</span>
+          <strong>bedbug39 ↗</strong>
+        </a>
+      </div>
+    </div>
+  </section>
+
+<section id="cv" class="section">
+    <div class="shell">
+      <h2 class="section-title">CV</h2>
+
+      <dl class="cv-grid">
+        <dt>Education</dt>
+        <dd>BSc in Computer Science and Engineering · United International University · 2023–2027</dd>
+
+        <dt>Current Role</dt>
+        <dd>Mechanical Team Lead · UIU Mars Rover Team</dd>
+
+        <dt>Engineering Focus</dt>
+        <dd>Mechanical Systems · Robotics · Fabrication · Hardware Integration</dd>
+
+        <dt>Selected Work</dt>
+        <dd>Rover engineering · Sensor-integrated RC car · V6 assembly study</dd>
+
+        <dt>Supporting Skills</dt>
+        <dd>Arduino · ESP · Sensors · Python · Git · Docker</dd>
+      </dl>
+
+      <div class="cv-actions">
+        <a class="pill" href="assets/docs/Siam_Ibne_Sarwar_CV.pdf" target="_blank" rel="noopener">Open Full CV</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer shell">
+  © <span id="year"></span> Siam Ibne Sarwar (Sinan)
+</footer>
+
+</body>
+</html>
