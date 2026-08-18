@@ -1,1 +1,1 @@
-Live site: http.//bedbug39.github.io
+Live site: http://bedbug39.github.io
